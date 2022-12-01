@@ -9,7 +9,7 @@ RUN yarn install --production
 
 COPY . .
 
-RUN yarn build
+RUN yarn tsc
 
 EXPOSE 32000
 ENV PORT 32000
