@@ -11,7 +11,4 @@ COPY . .
 
 RUN yarn tsc
 
-EXPOSE 32000
-ENV PORT 32000
-
 CMD ["yarn", "start"]
